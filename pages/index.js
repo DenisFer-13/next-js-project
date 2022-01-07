@@ -1,12 +1,11 @@
 //En esta línea habitualmente importaríamos React, pero al trabajar con NextJs no es necesario.
-import Navigation from "../components/navigation";
+import Container from "../components/Container";
 
 const Index = () => {                       //Luego de crea una función en una constante, que luego se exporta
     return (
-        <div>
-            <Navigation />
+        <Container>
             <h1>HOLA MUNDO.</h1>
-        </div>
+        </Container>
     )
 }
 

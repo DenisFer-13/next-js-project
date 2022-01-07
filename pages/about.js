@@ -1,11 +1,12 @@
-import Navigation from "../components/navigation";
+import Container from "../components/Container";
 
 const About = () => {
   return (
-    <div>
-      <Navigation />
-      <h2>ESTO ES UNA PÁGINA DE ABOUT.</h2>
-    </div>
+    <Container>
+      <div>
+        <h2>ESTO ES UNA PÁGINA DE ABOUT.</h2>
+      </div>
+    </Container>
   );
 };
 
