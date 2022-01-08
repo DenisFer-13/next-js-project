@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "next/link";   //Importamos el link de next que usaremos para rutear.
 
 const Navigation = () => {
   return (
